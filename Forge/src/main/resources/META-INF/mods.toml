@@ -1,0 +1,29 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3,)"
+license = "MIT"
+
+issueTrackerURL = "https://github.com//issues"
+
+[[mods]]
+modId = "yourmod"
+version = "${file.jarVersion}"
+displayName = "Your Mod"
+displayURL = "https://github.com/"
+logoFile = "logo.png"
+credits = "Petrak@ for the Project Layout"
+authors = "petrak@ (aka gamma-delta), grywo for turning it into a template"
+description = "An empty project."
+
+[[dependencies.yourmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.yourmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"
